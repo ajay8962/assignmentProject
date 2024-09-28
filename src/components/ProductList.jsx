@@ -30,8 +30,8 @@ const ProductList = () => {
               alt={product.title} 
               className="object-cover rounded-md " 
             />
-          <h4 className='text-4xl font-sans font-bold '>Product name: {product.title}</h4>
-          <p className='text-4xl font-sans '>Description: {product.description}</p>
+          <h4 className='text-2xl font-sans font-bold '>Product name: {product.title}</h4>
+          <p className='text-2xl font-sans '>Description: {product.description}</p>
         </div>
       ))}
       {loading && <p>Loading...</p>}
