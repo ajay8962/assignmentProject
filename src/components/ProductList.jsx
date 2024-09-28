@@ -22,7 +22,7 @@ const ProductList = () => {
 
 
   return (
-    <div className='text-2xl mb-5 mt-10'>
+    <div className='text-xl mb-5 mt-10'>
       {products.map(product => (
         <div key={product.id} className='mb-6 rounded-2xl shadow-lg'>
            <img 
@@ -30,8 +30,8 @@ const ProductList = () => {
               alt={product.title} 
               className="object-cover rounded-md " 
             />
-          <h4 className='text-2xl font-sans font-bold '>Product name: {product.title}</h4>
-          <p className='text-2xl font-sans '>Description: {product.description}</p>
+          <h4 className='text-xl font-sans font-bold '>Product name: {product.title}</h4>
+          <p className='text-xl font-sans '>Description: {product.description}</p>
         </div>
       ))}
       {loading && <p>Loading...</p>}

@@ -16,7 +16,7 @@ const CategorySelector = () => {
   }, [dispatch]);
 
   return (
-    <select className='h-12 border text-2xl border-gray-400  rounded-md shadow-lg'
+    <select className='h-10 border text-xl border-gray-400  rounded-md shadow-lg'
       value={category}
       onChange={(e) => dispatch(setCategory(e.target.value))}
     >

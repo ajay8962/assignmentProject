@@ -11,7 +11,7 @@ const SearchBar = () => {
   };
 
   return (
-    <input className='h-12 mr-3 text-4xl mb-3 mt-10 border border-gray-400 p-2 rounded-md shadow-lg '
+    <input className='h-10 mr-3 text-xl mb-3 mt-10 border border-gray-400 p-2 rounded-md shadow-lg '
       type="text" 
       value={searchQuery} 
       onChange={handleSearch} 
