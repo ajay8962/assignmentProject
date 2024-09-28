@@ -25,7 +25,7 @@ const ProductList = () => {
 
   return (
     <div className='container mx-auto  text-xl mb-5 mt-10 '>
-      <div className='grid grid-cols-3 gap-4'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4'>
         {products.map(product => (
           <div>
             <Card key={product.id} style={{ width: '18rem' }} className='container mx-auto shadow-lg '>
